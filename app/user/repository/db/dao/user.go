@@ -2,15 +2,15 @@ package dao
 
 import (
 	"context"
-	"github.com/CocaineCong/micro-todoList/app/user/repository/db/model"
 	"gorm.io/gorm"
+	"micro-todoList/micro-todoList/app/user/repository/db/model"
 )
 
 type UserDao struct {
 	*gorm.DB
 }
 
-func NewUserDap(ctx context.Context) *UserDao {
+func NewUserDao(ctx context.Context) *UserDao {
 	if ctx == nil {
 		ctx = context.Background()
 	}

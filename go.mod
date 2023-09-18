@@ -3,7 +3,6 @@ module micro-todoList/micro-todoList
 go 1.20
 
 require (
-	github.com/CocaineCong/micro-todoList v0.0.0-20230830103405-f41e3bf37414
 	github.com/gin-gonic/gin v1.9.1
 	go-micro.dev/v4 v4.10.2
 	google.golang.org/protobuf v1.30.0
