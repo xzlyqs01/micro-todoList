@@ -14,7 +14,7 @@ import (
 )
 
 var _db *gorm.DB
-
+//初始化连接数据库
 func InitDB() {
 	host := config.DbHost
 	port := config.DbPort

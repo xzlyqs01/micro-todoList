@@ -5,6 +5,7 @@ import (
 	"gorm.io/gorm"
 )
 
+//数据库模型
 type User struct {
 	gorm.Model
 	UserName       string `gorm:"unique"`
