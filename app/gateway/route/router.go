@@ -4,6 +4,7 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
+	"micro-todoList/micro-todoList/app/gateway/http"
 	"micro-todoList/micro-todoList/app/gateway/middleware"
 
 )
@@ -19,7 +20,7 @@ func NewRouter()*gin.Engine{
 			context.JSON(200,"success")
 		})
 		//用户服务
-		v1.POST("/user/register",http.UserReg)
+		v1.POST("/user/register",)
 	}
 }
 
